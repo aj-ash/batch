@@ -1,0 +1,26 @@
+Displays or alters the compression of files on NTFS partitions.
+
+COMPACT [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [filename [...]]
+
+  /C        Compresses the specified files.  Directories will be marked
+            so that files added afterward will be compressed.
+  /U        Uncompresses the specified files.  Directories will be marked
+            so that files added afterward will not be compressed.
+  /S        Performs the specified operation on files in the given
+            directory and all subdirectories.  Default "dir" is the
+            current directory.
+  /A        Displays files with the hidden or system attributes.  These
+            files are omitted by default.
+  /I        Continues performing the specified operation even after errors
+            have occurred.  By default, COMPACT stops when an error is
+            encountered.
+  /F        Forces the compress operation on all specified files, even
+            those which are already compressed.  Already-compressed files
+            are skipped by default.
+  /Q        Reports only the most essential information.
+  filename  Specifies a pattern, file, or directory.
+
+  Used without parameters, COMPACT displays the compression state of
+  the current directory and any files it contains. You may use multiple
+  filenames and wildcards.  You must put spaces between multiple
+  parameters.

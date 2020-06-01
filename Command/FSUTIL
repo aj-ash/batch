@@ -1,0 +1,18 @@
+/? is an invalid parameter.
+---- Commands Supported ----
+
+8dot3name       8dot3name managment
+behavior        Control file system behavior
+dirty           Manage volume dirty bit
+file            File specific commands
+fsinfo          File system information
+hardlink        Hardlink management
+objectid        Object ID management
+quota           Quota management
+repair          Self healing management
+reparsepoint    Reparse point management
+resource        Transactional Resource Manager management
+sparse          Sparse file control
+transaction     Transaction management
+usn             USN management
+volume          Volume management

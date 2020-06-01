@@ -1,0 +1,8 @@
+Enable Windows to display an extended character set in graphics mode.
+
+GRAFTABL [xxx]
+GRAFTABL /STATUS
+
+   xxx      Specifies a code page number.
+   /STATUS  Displays the current code page selected for use with GRAFTABL.
+

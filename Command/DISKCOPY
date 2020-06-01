@@ -1,0 +1,8 @@
+Copies the contents of one floppy disk to another.
+
+DISKCOPY [drive1: [drive2:]] [/V]
+
+  /V   Verifies that the information is copied correctly.
+
+The two floppy disks must be the same type.
+You may specify the same drive for drive1 and drive2.

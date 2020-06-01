@@ -1,0 +1,4 @@
+Compares the contents of two floppy disks.
+
+DISKCOMP [drive1: [drive2:]]
+

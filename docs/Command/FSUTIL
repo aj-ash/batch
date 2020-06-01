@@ -1,0 +1,20 @@
+/? 是无效参数。
+---- 支持的命令 ----
+
+8dot3name       8dot3name 管理
+behavior        控制文件系统行为
+dirty           管理卷的非正常位
+file            文件特定的命令
+fsinfo          文件系统信息
+hardlink        硬链接管理
+objectid        对象 ID 管理
+quota           配额管理
+repair          自愈管理
+reparsepoint    重分析点管理
+resource        事务性资源管理器管理
+sparse          稀疏文件控制
+tiering         存储分层属性管理
+transaction     事务管理
+usn             USN 管理
+volume          卷管理
+wim             透明 wim 托管管理
